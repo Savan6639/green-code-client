@@ -1,0 +1,18 @@
+
+
+input,textarea{
+	@apply border;
+	@apply rounded;
+	@apply gc-text-dark;
+	accent-color: $gc-color-green;
+	&:focus{
+		outline: 1px solid $gc-color-green;
+	}
+}
+
+
+select{
+	&:focus{
+		outline: 2px solid $gc-color-green;
+	}
+}

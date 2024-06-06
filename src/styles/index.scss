@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './abstracts/variables.scss';
+
+@import './base/shadows.scss','./base/theme.scss';
+
+@import './components/form.scss';
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

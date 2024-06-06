@@ -1,0 +1,63 @@
+@import "../abstracts/variables.scss";
+
+::selection{
+	background-color: #7cc52970;
+}
+
+.gc-bg-green-light{
+	background-color: $gc-color-green-light;
+}
+
+.gc-text-green{
+	color: $gc-color-green;
+}
+
+.gc-text-dark{
+	color: $gc-color-dark;
+}
+.gc-bg-green{
+	background-color: $gc-color-green;
+}
+.gc-bg-dark{
+	background-color: $gc-color-dark;
+}
+
+.gc-hover-text-green:hover{
+	@apply gc-text-green;
+}
+.gc-hover-text-dark:hover{
+	@apply gc-text-dark;
+}
+
+.gc-border-green{
+	border-color: $gc-color-green;
+}
+
+.gc-border-dark{
+	border-color: $gc-color-dark;
+}
+
+.gc-hover-border-green:hover{
+	@apply gc-border-green;
+}
+
+.gc-hover-border-dark:hover{
+	@apply gc-border-dark;
+}
+
+.gc-bg-green{
+	background-color: $gc-color-green;
+}
+.gc-hover-bg-green:hover{
+	@apply gc-bg-green;
+}
+
+.gc-bg-dark{
+	background-color: $gc-color-dark;
+}
+.gc-hover-bg-dark:hover{
+	@apply gc-bg-dark;
+}
+
+
+
